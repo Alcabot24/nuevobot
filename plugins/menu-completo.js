@@ -30,13 +30,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⟣☯︎ *𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
 ┣⟣☯︎ *𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂:* ${rtotalreg}
 ┗━━━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ 𝕁𝕌𝔼𝔾𝕆𝕊 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}menujuegos_
-┗━━━━━━━━━━━━━━━━┛
-
 ┏━━━━━━━━━━━━━━━━┓
 *┃❍ ACTIVAR O DESACTIVAR ❍*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
@@ -132,7 +125,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 
 ┏━━━━━━━━━━━━━━━━┓
-*┃❍ AJUSTES DE GRUPOS  ❍* 
+*┃AJUSTES DE GRUPOS* 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣⟣❥ _${usedPrefix}add *<numero>*_
 ┣⟣❥ _${usedPrefix}kick *<@tag>*_
@@ -179,109 +172,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⟣❥ _${usedPrefix}tts *<idioma> <texto>*_
 ┣⟣❥ _${usedPrefix}tts *<efecto> <texto>*_
 ┗━━━━━━━━━━━━━━━━┛
-
 ┏━━━━━━━━━━━━━━━━┓
-*┃❍ EFECTOS Y LOGOS ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}logos *<efecto> <texto>*_
-┣⟣❥ _${usedPrefix}logochristmas *<texto>*_
-┣⟣❥ _${usedPrefix}logocorazon *<texto>*_
-┣⟣❥ _${usedPrefix}ytcomment *<texto>*_
-┣⟣❥ _${usedPrefix}hornycard *<@tag>*_
-┣⟣❥ _${usedPrefix}simpcard *<@tag>*_
-┣⟣❥ _${usedPrefix}lolice *<@tag>*_
-┣⟣❥ _${usedPrefix}itssostupid_
-┣⟣❥ _${usedPrefix}pixelar_
-┣⟣❥ _${usedPrefix}blur_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ 𝔽ℝ𝔸𝕊𝔼𝕊 𝕐 𝕋𝔼𝕏𝕋𝕆𝕊 ❍*
+*┃❍ FRASES Y TEXTOS ❍*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣⟣❥ _${usedPrefix}piropo_
 ┣⟣❥ _${usedPrefix}consejo_
 ┣⟣❥ _${usedPrefix}fraseromantica_
 ┣⟣❥ _${usedPrefix}historiaromantica_
 ┗━━━━━━━━━━━━━━━━┛
-
 ┏━━━━━━━━━━━━━━━━┓
-*┃❍ ℝ𝔸ℕ𝔻-𝔸ℕ𝕀𝕄𝔼𝕊 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}menuanimes_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ ℝ𝔸ℕ𝔻𝕆𝕄 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥  _${usedPrefix}kpop *<blackpink / exo / bts>*_
-┣⟣❥ _${usedPrefix}cristianoronaldo_
-┣⟣❥ _${usedPrefix}messi_
-┣⟣❥ _${usedPrefix}cat_
-┣⟣❥ _${usedPrefix}dog_
-┣⟣❥ _${usedPrefix}meme_
-┣⟣❥ _${usedPrefix}itzy_
-┣⟣❥ _${usedPrefix}blackpink_
-┣⟣❥ _${usedPrefix}navidad_
-┣⟣❥ _${usedPrefix}wpmontaña_
-┣⟣❥ _${usedPrefix}pubg_
-┣⟣❥ _${usedPrefix}wpgaming_
-┣⟣❥ _${usedPrefix}wpaesthetic_
-┣⟣❥ _${usedPrefix}wpaesthetic2_
-┣⟣❥ _${usedPrefix}wprandom_
-┣⟣❥ _${usedPrefix}wallhp_
-┣⟣❥ _${usedPrefix}wpvehiculo_
-┣⟣❥ _${usedPrefix}wpmoto_
-┣⟣❥ _${usedPrefix}coffee_
-┣⟣❥ _${usedPrefix}pentol_
-┣⟣❥ _${usedPrefix}caricatura_
-┣⟣❥ _${usedPrefix}ciberespacio_
-┣⟣❥ _${usedPrefix}technology_
-┣⟣❥ _${usedPrefix}doraemon_
-┣⟣❥ _${usedPrefix}hacker_
-┣⟣❥ _${usedPrefix}planeta_
-┣⟣❥ _${usedPrefix}randomprofile_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ ℂ𝕆𝕄𝔸ℕ𝔻𝕆𝕊 +𝟙𝟠 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}labiblia_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ 𝔼𝔽𝔼ℂ𝕋𝕆𝕊 𝔻𝔼 𝔸𝕌𝔻𝕀𝕆𝕊 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┃- *𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙴 𝙰 𝙰𝚄𝙳𝙸𝙾 𝙾 𝙽𝙾𝚃𝙰 𝙳𝙴 𝚅𝙾𝚉*
-┣⟣❥ _${usedPrefix}bass_
-┣⟣❥ _${usedPrefix}blown_
-┣⟣❥ _${usedPrefix}deep_
-┣⟣❥ _${usedPrefix}earrape_
-┣⟣❥ _${usedPrefix}fast_
-┣⟣❥ _${usedPrefix}fat_
-┣⟣❥ _${usedPrefix}nightcore_
-┣⟣❥ _${usedPrefix}reverse_
-┣⟣❥ _${usedPrefix}robot_
-┣⟣❥ _${usedPrefix}slow_
-┣⟣❥ _${usedPrefix}smooth_
-┣⟣❥ _${usedPrefix}tupai_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ ℂℍ𝔸𝕋 𝔸ℕ𝕆ℕ𝕀𝕄𝕆 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}start_
-┣⟣❥ _${usedPrefix}next_
-┣⟣❥ _${usedPrefix}leave_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ 𝔸𝕌𝔻𝕀𝕆𝕊 ❍*   
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}menuaudios_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ ℍ𝔼ℝℝ𝔸𝕄𝕀𝔼ℕ𝕋𝔸𝕊 ❍*
+*┃❍ HERRAMIENTAS ❍*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣⟣❥ _${usedPrefix}chatgpt *<texto>*_
 ┣⟣❥ _${usedPrefix}delchatgpt
@@ -309,65 +209,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⟣❥ _${usedPrefix}horario_
 ┣⟣❥ _${usedPrefix}dropmail_
 ┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ ℝℙ𝔾 - 𝕃𝕀𝕄𝕀𝕋𝔼𝕊 - 𝔼ℂ𝕆ℕ𝕆𝕄𝕀𝔸 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣⟣❥ _${usedPrefix}adventure_
-┣⟣❥ _${usedPrefix}cazar_
-┣⟣❥ _${usedPrefix}cofre_
-┣⟣❥ _${usedPrefix}balance_
-┣⟣❥ _${usedPrefix}claim_
-┣⟣❥ _${usedPrefix}heal_
-┣⟣❥ _${usedPrefix}lb_
-┣⟣❥ _${usedPrefix}levelup_
-┣⟣❥ _${usedPrefix}myns_
-┣⟣❥ _${usedPrefix}perfil_
-┣⟣❥ _${usedPrefix}work_
-┣⟣❥ _${usedPrefix}minar_
-┣⟣❥ _${usedPrefix}minar2_
-┣⟣❥ _${usedPrefix}buy_
-┣⟣❥ _${usedPrefix}buyall_
-┣⟣❥ _${usedPrefix}verificar_
-┣⟣❥ _${usedPrefix}robar *<cantidad> <@tag>*_
-┣⟣❥ _${usedPrefix}transfer *<tipo> <cantidad> <@tag>*_
-┣⟣❥ _${usedPrefix}unreg *<numero de serie>*_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃❍ 𝕊𝕋𝕀ℂ𝕂𝔼ℝ𝕊 ❍*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣ ⟣❥ _${usedPrefix}sticker *<responder a imagen o video>*_
-┣ ⟣❥ _${usedPrefix}sticker *<enlace / link / url>*_
-┣⟣❥  _${usedPrefix}sticker2 *<responder a imagen o video>*_
-┣⟣❥  _${usedPrefix}sticker2 *<enlace / link / url>*_
-┣⟣❥  _${usedPrefix}s *<responder a imagen o video>*_
-┣⟣❥ _${usedPrefix}s *<enlace / link / url>*_
-┣⟣❥ _${usedPrefix}s2 *<responder a imagen o video>*_
-┣⟣❥ _${usedPrefix}s2 *<enlace / link / url>*_
-┣⟣❥ _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
-┣⟣❥ _${usedPrefix}scircle *<imagen>*_
-┣⟣❥ _${usedPrefix}sremovebg *<imagen>*_
-┣⟣❥ _${usedPrefix}semoji *<tipo> <emoji>*_
-┣⟣❥ _${usedPrefix}qc *<texto>*_
-┣⟣❥ _${usedPrefix}attp *<texto>*_
-┣⟣❥ _${usedPrefix}attp2 *<texto>*_
-┣⟣❥ _${usedPrefix}attp3 *<texto>*_
-┣⟣❥ _${usedPrefix}ttp *<texto>*_
-┣⟣❥ _${usedPrefix}ttp2 *<texto>*_
-┣⟣❥ _${usedPrefix}ttp3 *<texto>*_
-┣⟣❥ _${usedPrefix}ttp4 *<texto>*_
-┣⟣❥ _${usedPrefix}ttp5 *<texto>*_
-┣⟣❥ _${usedPrefix}pat *<@tag>*_
-┣⟣❥ _${usedPrefix}slap *<@tag>*_
-┣⟣❥ _${usedPrefix}kiss *<@tag>*_
-┣⟣❥ _${usedPrefix}dado_
-┣⟣❥ _${usedPrefix}wm *<packname> <author>*_
-┣⟣❥ _${usedPrefix}stickermarker *<efecto> <imagen>*_
-┣⟣❥ _${usedPrefix}stickerfilter *<efecto> <imagen>*_
-┣⟣❥ _${usedPrefix}cartoon *<responder a imagen>*_
-┗━━━━━━━━━━━━━━━━┛
-
 ┏━━━━━━━━━━━━━━━━┓
 *┃❍ 𝕆𝕎ℕ𝔼ℝ𝕊 𝕐 𝕄𝕆𝔻𝔼ℝ𝔸𝕋𝕆ℝ𝕊 ❍*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
