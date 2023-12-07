@@ -6,11 +6,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   let txt = `
 ┏━━━━━━━━━━━━━━━━┓
-┣ *[  𝙈𝙀𝙉𝙐 𝘿𝙀 𝘼𝙇𝘾𝘼 💥]*
-┣* 𝘾𝙍𝙀𝘼𝘿𝙊𝙍* : *𝙰𝚕𝚌𝚊 𝚅𝚎𝚗𝚝𝚊𝚜*
-┣* 𝘾𝙊𝙉𝙏𝘼𝘾𝙏𝙊* : *𝚠𝚊.𝚖𝚎/𝟻𝟸𝟾𝟸𝟺𝟷𝙾𝟻𝙾𝟸𝟸𝟾*
-┗━━━━━━━━━━━━━━━━┛
-┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝙂𝙍𝙐𝙋𝙊𝙎 𝘼𝙅𝙐𝙎𝙏𝙀𝙎
 ┗━━━━━━━━━━
 ┣⚙️ .𝐀𝐝𝐝 𝚗𝚞𝚖𝚎𝚛𝚘
@@ -53,9 +48,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┏━━━━━━━━━━━━━━━━┓
 ┃ ⏤͟͟͞͞𝙎𝙏𝙄𝘾𝙆𝙀𝙍𝙎
 ┗━━━━━━━━━━
-┣🫰🏻 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝚛𝚎𝚜𝚙𝚘𝚗𝚍𝚎𝚛 𝚊 𝚒𝚖𝚊𝚐𝚎𝚗 𝚘 𝚟𝚒𝚍𝚎𝚘
-┣🫰🏻 𝐪𝐜 𝚝𝚎𝚡𝚝𝚘
-┣🫰🏻 𝐤𝐢𝐬𝐬 @𝚝𝚊𝚐
+┣🫰🏻 .𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝚛𝚎𝚜𝚙𝚘𝚗𝚍𝚎𝚛 𝚊 𝚒𝚖𝚊𝚐𝚎𝚗 𝚘 𝚟𝚒𝚍𝚎𝚘
+┣🫰🏻 .𝐪𝐜 𝚝𝚎𝚡𝚝𝚘
+┣🫰🏻 .𝐤𝐢𝐬𝐬 @𝚝𝚊𝚐
 ┗━━━━━━━━━━━━━━━━┛
 *☑️ SI NO FUNCIONA BOT MANDEN DM*`;
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen4, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: m});
