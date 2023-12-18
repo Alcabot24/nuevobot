@@ -8,7 +8,7 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['528241050228', '⭐️ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯 ', true],
+  ['529715023798', '𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺', true],
   ['50576390682', '✦𝙲𝚄𝚂𝚃𝙾𝙼𝙴𝚁 𝚂𝚄𝙿𝙿𝙾𝚁𝚃✦', true],
   ['5217294888993'],['573106040746'],['51929972576'],['5217774519212'],
 ];
@@ -17,11 +17,11 @@ global.suittag = ['51992004117'],['50576390682']
 global.prems = ['51992004127'],['50576390682']
 
 global.packname = 'STICKER';
-global.author = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯';
-global.wm = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯✨';
-global.titulowm = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯';
-global.titulowm2 = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯  `
-global.igfg = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯';
+global.author = '𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺';
+global.wm = '𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺✨';
+global.titulowm = '𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺';
+global.titulowm2 = ` 𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺  `
+global.igfg = '𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -43,8 +43,8 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 
 //****************************
-global.gt = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯';
-global.mysticbot = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯✨';
+global.gt = '𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺';
+global.mysticbot = '𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺✨';
 global.md = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
 global.mysticbot = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
