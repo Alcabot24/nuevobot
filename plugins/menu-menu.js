@@ -4,13 +4,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
   const {money, joincount} = global.db.data.users[m.sender];
   const {exp, limit, level, role} = global.db.data.users[m.sender];
-  let txt = `𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯
+  let txt = `𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺
 
  ┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯—◉*
+┃ *◉—𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺—◉*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* ALCAVENTAS
-┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 824 105 0228
+┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* 𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺
+┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 462 152 7033
 ┗━━━━━━━━━━━━━━━━━━┛
 
 *┃𝗕 𝗢 𝗧 𝗠 𝗘 𝗡 𝗨 𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗗𝗢𝗥𝗘𝗦*┃
@@ -41,15 +41,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚙️ _.infogroup_
 ┣⚙️ _.resetlink_
 ┣⚙️ _.link_
-┣⚙️ _.setname *<texto>*_
-┣⚙️ _.setdesc *<texto>*_
+┣⚙️ _.setwelcome *<texto>*_ (Editar Bienvenida)
+┣⚙️ _.setbye *<texto>*_ (Editar Despedida)
 ┣⚙️ _.invocar *<texto>*_
-┣⚙️ _.setwelcome *<texto>*_
-┣⚙️ _.setbye *<texto>*_
-┣⚙️ _.hidetag *<texto>*_
-┣⚙️ _.hidetag *<audio>*_
-┣⚙️ _.hidetag *<video>*_
-┣⚙️ _.hidetag *<imagen>*_
 ┣⚙️ _.warn *<@tag>*_
 ┣⚙️ _.unwarn *<@tag>*_
 ┣⚙️ _.listwarn_
@@ -59,7 +53,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗕𝗨𝗦𝗖𝗔𝗥 ✨*
-┃ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝟯 ≡┃
+┃ 𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺 ≡┃
 ┣🔍 _.githubsearch *<texto>*_
 ┣🔍 _.pelisplus *<texto>*_
 ┣🔍 _.modapk *<texto>*_
@@ -99,9 +93,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *┃ ✨ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 ✨*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🏓 _.play *<texto de la canción >*_
-┣🚨 SI LLEGA FALLAR BOT AVISARME +528241050228
+┣🚨 SI LLEGA FALLAR BOT AVISARME +52 462 152 7033
 ┗━━━━━━━━━━━━━━━━┛
-𝘾𝙍𝙀𝘼𝘿𝙊𝙍 @𝘼𝙇𝘾𝘼𝙎𝙃𝙊𝙋 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +5282410502208`.trim();
+𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝗔𝗟𝗙𝗔𝗕𝗢𝗧 🐺 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +524621527033`.trim();
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen4, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: m});
 };
 handler.help = ['menu'];
