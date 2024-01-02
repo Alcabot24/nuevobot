@@ -4,15 +4,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const date = d.toLocaleDateString(locale, {day: 'numeric', month: 'long', year: 'numeric'});
   const {money, joincount} = global.db.data.users[m.sender];
   const {exp, limit, level, role} = global.db.data.users[m.sender];
-  let txt = `𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝗡𝗘𝗪
-
+  let txt = `𝗪𝗜𝗡𝗫𝗜𝗜 𝗕𝗢𝗧🩷
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝗡𝗘𝗪—◉*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* ALCAVENTAS
-┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 824 105 0228
+┃ *◉—𝗪𝗜𝗡𝗫𝗜𝗜 𝗕𝗢𝗧🩷—◉*
+┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* 𝗪𝗜𝗡𝗫𝗜𝗜 𝗕𝗢𝗧🩷
+┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 782 107 5403
 ┗━━━━━━━━━━━━━━━━━━┛
-
 *┃𝗕 𝗢 𝗧 𝗠 𝗘 𝗡 𝗨 𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗗𝗢𝗥𝗘𝗦*┃
 ┏━━━━━━━━━━━━━━━━┓
 *┃ ✨𝗔𝗖𝗧𝗜𝗩𝗔𝗥 𝗢 𝗗𝗘𝗦𝗔𝗖𝗧𝗜𝗩𝗔𝗥✨*
@@ -29,13 +26,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣⚙️ _.add *<numero>*_
 ┣⚙️ _.kick *<@tag>*_
-┣⚙️ _.kick2 *<@tag>*_
-┣⚙️ _.kicknum *<texto>*_
 ┣⚙️ _.grupo *<abrir / cerrar>*_
 ┣⚙️ _.grouptime *<opcion> <tiempo>*_
 ┣⚙️ _.promote *<@tag>*_
-┣⚙️ _.demote *<@tag>*_
-┣⚙️ _.demote *<@tag>*_
 ┣⚙️ _.infogroup_
 ┣⚙️ _.resetlink_
 ┣⚙️ _.link_
@@ -46,12 +39,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣⚙️ _.unwarn *<@tag>*_
 ┣⚙️ _.notify_ (Hacer notifys)
 ┣⚙️ _.fantasmas_
-┣⚙️ _.destraba_
-┣⚙️ _.setpp *<imagen>*_
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗕𝗨𝗦𝗖𝗔𝗥 ✨*
-┃ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧|𝗡𝗘𝗪 ≡┃
 ┣🔍 _.githubsearch *<texto>*_
 ┣🔍 _.pelisplus *<texto>*_
 ┣🔍 _.modapk *<texto>*_
@@ -62,16 +52,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗙𝗥𝗔𝗦𝗘𝗦 𝗢 𝗣𝗜𝗥𝗢𝗣𝗢𝗦✨*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣📖 _.piropo_
 ┣📖 _.consejo_
 ┣📖 _.fraseromantica_
 ┣📖 _.historiaromantica_
 ┗━━━━━━━━━━━━━━━━┛
-
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦✨*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🔧 _.clima *<país> <ciudad>*_
 ┣🔧 _.encuesta *<texto1|texto2...>*_
 ┣🔧 _.ocr *<responde a imagen>*_
@@ -82,18 +69,16 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃ ✨𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦✨*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🍭 _.sticker *<responder a imagen o video>*_
 ┣🍭 _.kiss *<@tag>*_
 ┣🍭 _.dado_
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃ ✨ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 ✨*
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🏓 _.play *<texto de la canción >*_
 ┣🚨 No Descargar Music (evitar bugeos)
 ┗━━━━━━━━━━━━━━━━┛
-𝘾𝙍𝙀𝘼𝘿𝙊𝙍 @𝘼𝙇𝘾𝘼𝙎𝙃𝙊𝙋 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +5282410502208`.trim();
+𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝗪𝗜𝗡𝗫𝗜𝗜 𝗕𝗢𝗧🩷 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +527821075403`.trim();
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen4, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: m});
 };
 handler.help = ['menu'];
