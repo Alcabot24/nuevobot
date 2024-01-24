@@ -6,9 +6,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   const {exp, limit, level, role} = global.db.data.users[m.sender];
   let txt = `
 ┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝘼𝙇𝘾𝘼²|𝘽𝙊𝙏—◉*
-┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* ALCAVENTAS
-┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 824 105 0228
+┃ *◉—𝗕𝗔𝗥𝗕𝗜𝗘|𝘽𝙊𝙏—◉*
+┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* 𝗕𝗔𝗥𝗕𝗜𝗘|𝘽𝙊𝙏
+┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +525646448827
 ┗━━━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨𝗔𝗖𝗧𝗜𝗩𝗔𝗥 𝗢 𝗗𝗘𝗦𝗔𝗖𝗧𝗜𝗩𝗔𝗥✨*
@@ -70,7 +70,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣🏓 _.play *<texto de la canción >*_
 ┣🚨 No Descargar Music (evitar bugeos)
 ┗━━━━━━━━━━━━━━━━┛
-𝘾𝙍𝙀𝘼𝘿𝙊𝙍 @𝘼𝙇𝘾𝘼𝙎𝙃𝙊𝙋 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +5282410502208`.trim();
+ 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +525646448827`.trim();
    await conn.sendMessage(m.chat, {text: txt.trim(), mentions: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: {forwardingScore: 9999999, isForwarded: true, mentionedJid: [...txt.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": global.titulowm2, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen4, "mediaUrl": global.gp1, "sourceUrl": global.gp1}}}, {quoted: m});
 };
 handler.help = ['menu'];
